@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Publisher Categories</title>
+	<link href="css/styles.css" rel="stylesheet" />
+
+</head>
+<body>
+	<div class="mainContent container">
+
+		<h1>Publisher Categories</h1>
+
+		<!-- publisher categories will be rendered here -->
+		<div class="category-list"></div>
+
+	</div>
+
+	<!-- begin category handlebars template -->
+	<script id="category-list-template" type="text/x-handlebars-template">
+		<ul>
+			{{#each this.cats}}
+				<li><a href="/bzwebapi/question-set.html?env={{../bzEnv}}&pub={{../bzPub}}&cat={{categoryId}}">{{categoryName}}</a> &ndash; {{categoryType}}</li>
+			{{/each}}
+		</ul>
+
+	</script>
+
+	<!-- javascript -->
+	<script src="js/libs/jquery-1.8.3.min.js"></script>
+	<script src="js/libs/jquery.ba-bbq.min.js"></script>
+	<script src="js/libs/handlebars-v1.3.0.js"></script>
+	<script src="js/libs/hhh/build/hoard.all.js"></script>
+	<script src="js/libs/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<script src="js/app/getParams.js"></script>
+	<script src="js/app/getCategoryList.js"></script>
+</body>
+</html>

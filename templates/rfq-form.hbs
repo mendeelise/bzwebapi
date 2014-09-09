@@ -1,0 +1,95 @@
+
+
+	<!-- rfq form handlebars template -->
+	<script id="rfq-form-template" type="text/x-handlebars-template">
+
+		<form id="bzwebapiForm" class="rfqForm" action="{{qs._links.submissionUrl}}" method="post">
+			<input type="hidden" name="questionSetVersionId" value="{{qs.categoryQuestions.questionSetVersionId}}" />
+		</form>
+
+	</script><!-- ./ end form -->
+
+
+	<!-- aor form handlebars template -->
+	<script id="aor-form-template" type="text/x-handlebars-template">
+
+		<form id="aorWebapiForm{{categoryId}}" class="rfqForm aorForm" action="{{qs._links.submissionUrl}}" method="post">
+			<input type="hidden" name="questionSetVersionId" value="{{qs.categoryQuestions.questionSetVersionId}}" />
+
+			<div class="form-nav clearfix">
+				<button id="submit-form{{categoryId}}" class="submit-button continue-btn nav-btn">Submit Form</button>
+				<img src="http://www.buyerzone.com/images/spinner.gif" class="ajax-aor-spinner" />
+			</div>
+		</form>
+
+	</script><!-- ./ end aor form -->
+
+
+	<!-- answer templates -->
+	<script id="select-template" type="text/x-handlebars-template">
+		<select name="{{this.xmlId}}" id="{{this.xmlId}}" class="dropdown {{{req required}}}">
+		<option value="">Please Select</option>
+		{{#each this.answersXML.answerXMList}}
+			<option value="{{xmlId}}">{{label}}</option>
+		{{/each}}
+		</select>
+	</script>
+
+
+
+	<script id="option-template" type="text/x-handlebars-template">
+		{{#each answerXMList}}
+
+		{{/each}}
+	</script>
+
+
+	<script id="radio-template" type="text/x-handlebars-template">
+		{{#each this.answersXML.answerXMList}}
+			<div class="radio">
+				<input type="radio" id="{{xmlId}}" name="{{../xmlId}}" value="{{xmlId}}" />
+				<label for="{{xmlId}}">{{label}}</label>
+				{{otherInput}}
+			</div>
+		{{/each}}
+	</script>
+
+	<script id="checkboxes-template" type="text/x-handlebars-template">
+		{{#each this.answersXML.answerXMList}}
+			<div class="checkbox">
+				<input type="checkbox" id="{{xmlId}}" name="{{../xmlId}}" value="{{xmlId}}" />
+				<label for="{{xmlId}}">{{label}}</label>
+				{{otherInput}}
+			</div>
+
+		{{/each}}
+	</script>
+
+	<!-- other input -->
+	<script id="other-input-template" type="text/x-handlebars-template">
+
+		<input type="text" id="{{xmlId}}" name="{{../xmlId}}" class="other-input other-input-{{type}}" />
+	</script><!-- ./other input -->
+
+
+
+	<script id="text-template" type="text/x-handlebars-template">
+		{{#each this.answersXML.answerXMList}}
+			<input type="text" id="{{../xmlId}}" name="{{../xmlId}}" class="{{properties.size}} {{properties.validation}}" />
+		{{/each}}
+	</script>
+
+	<script id="textmultiple-template" type="text/x-handlebars-template">
+		{{#each this.answersXML.answerXMList}}
+			<div class="textmultiple clearfix">
+				<label for="{{xmlId}}">{{label}}</label>
+				<input type="text" id="{{xmlId}}" name="{{xmlId}}" class="{{properties.size}} {{properties.validation}}" />
+			</div>
+		{{/each}}
+	</script>
+
+	<script id="textarea-template" type="text/x-handlebars-template">
+		{{#each this.answersXML.answerXMList}}
+			<textarea id="{{../xmlId}}" name="{{../xmlId}}" class="{{properties.size}}"></textarea>
+		{{/each}}
+	</script>

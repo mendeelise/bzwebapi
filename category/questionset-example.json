@@ -1,0 +1,134 @@
+{
+   "categoryQuestions":{
+      "version":"questions_1",
+      "czname":"Example Question Set",
+      "xmlId":"5f9c32f6-a50a-2675-8238-716ecc36f075",
+      "questionXMList":[
+         {
+            "xmlId":"__match__1de9f9e6-bdc6-0969-11e5-7e1934f5546a",
+            "type":"multiplechoice",
+            "displayorder":"0",
+            "required":"true",
+            "matchable":"true",
+            "buyerText":{
+               "buyerText":"Which best describes your phone system project:"
+            },
+            "supplierText":{
+               "supplierText":"Buyer's phone systems needs:",
+               "displayorder":"1"
+            },
+            "answersXML":{
+               "type":"radio",
+               "answerXMList":[
+                  {
+                     "xmlId":"affed0c6-985e-ae19-cfd3-3d91cfd736b3",
+                     "label":"Installing a new phone system   "
+                  },
+                  {
+                     "xmlId":"f3d37cbc-eb7b-9903-67a3-12dceab97182",
+                     "label":"Replacing an existing phone system    "
+                  },
+                  {
+                     "xmlId":"1aae756f-e751-a8d2-2520-94a3ed20cd9c",
+                     "label":"Expanding an existing phone system"
+                  }
+               ]
+            }
+         },
+         {
+            "xmlId":"__match__4e37cf93-5a03-6bbe-d7b7-4160c7712a6b",
+            "type":"textsingle",
+            "displayorder":"1",
+            "required":"true",
+            "matchable":"true",
+            "buyerText":{
+               "buyerText":"How many employees do you have?"
+            },
+            "supplierText":{
+               "supplierText":"Number of employees:",
+               "displayorder":"2"
+            },
+            "note":{
+               "note":"(Please use a numeric value greater than zero - e.g., 10, not ten.)",
+               "display":"true"
+            },
+            "answersXML":{
+               "type":"text",
+               "answerXMList":[
+                  {
+                     "xmlId":"66cdb395-42e2-6cc9-0e50-65f371a36cc4",
+                     "properties":{
+                        "size":"small",
+                        "validation":"number"
+                     }
+                  }
+               ]
+            }
+         },
+         {
+            "xmlId":"__match__4e37cf93-5a03-6bbe-d7b7-4160c7712a6b",
+            "type":"textmultiple",
+            "displayorder":"1",
+            "required":"false",
+            "matchable":"false",
+            "buyerText":{
+               "buyerText":"Tell me about your phone"
+            },
+            "supplierText":{
+               "supplierText":"Tell me about your phone:",
+               "displayorder":"2"
+            },
+            "answersXML":{
+               "type":"text",
+               "answerXMList":[
+                  {
+                     "xmlId":"66cdb395-42e2-6cc9-0e50-65f371a36cc4",
+                     "label":"What color do you want"
+                     "properties":{
+                        "size":"small",
+                        "validation":"text"
+                     },
+                   {
+                     "xmlId":"66cdb395-42e2-6cc9-0e50-65f371a36cc4",
+                     "label":"How many do you need"
+                     "properties":{
+                        "size":"medium",
+                        "validation":"number"
+                     }
+  
+                  }
+               ]
+            },
+         {
+            "xmlId":"__match__4e37cf93-5a03-6bbe-d7b7-4160c7712a6b",
+            "type":"paragraph",
+            "displayorder":"1",
+            "required":"true",
+            "buyerText":{
+               "buyerText":"Describe what you are looking for in a phone?"
+            },
+            "supplierText":{
+               "supplierText":"Number of employees:",
+               "displayorder":"2"
+            },
+            "note":{
+               "note":"(Please use a numeric value greater than zero - e.g., 10, not ten.)",
+               "display":"true"
+            },
+            "answersXML":{
+               "type":"text",
+               "answerXMList":[
+                  {
+                     "xmlId":"66cdb395-42e2-6cc9-0e50-65f371a36cc4",
+                     "properties":{
+                        "size":"small",
+                        "validation":"number"
+                     }
+                  }
+               ]
+            }
+         },
+         },         
+      ]
+   }
+}

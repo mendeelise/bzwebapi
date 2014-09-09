@@ -1,0 +1,16 @@
+<script id="qs-template" type="text/x-handlebars-template">
+	{{#each questionXMList}}
+
+		<section>
+			<fieldset class="page page-{{@index}} qs qs-container">
+				<legend class="question {{{req required}}}{{{match matchable}}}">
+					{{questionText}}
+
+				</legend>
+
+				{{answers}}
+
+			</fieldset>
+		</section>
+	{{/each}}
+</script>

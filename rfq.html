@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web API Question Set and Registration</title>
+
+	<link href="js/libs/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" />
+	<link href="css/styles.css" rel="stylesheet" />
+	<style>
+		#thanks h5 {
+			font-size: 20px;
+		}
+		.hidden {
+			display: none;
+		}
+		.mainContent, .form-nav {
+			position: relative;
+		}
+		.ajax-spinner, .ajax-aor-spinner {
+			position: absolute;
+			left: 175px;
+			bottom: 40px;
+			display: none;
+		}
+		#aor-cats-form-holder h1 {
+			clear: both;
+			border-top: 2px dotted #ff871e;
+			padding-top: 10px;
+			margin-top: 10px;
+		}
+		#aor-cats-form-holder h1:first-of-type {
+			border-top: none;
+		}
+
+	</style>
+</head>
+
+
+<body>
+
+	<!--<button id="test">test</button>-->
+	<div class="mainContent container">
+
+		<!-- handlebars content will be rendered here -->
+		<div class="bz-form"></div>
+		<button id="submit-form" style="display: none;" class="continue-btn nav-btn">Submit Form</button>
+		<img src="http://www.buyerzone.com/images/spinner.gif" class="ajax-spinner" />
+	</div>
+
+	<!-- begin category handlebars template -->
+	<script id="category-template" type="text/x-handlebars-template">
+	  <h1>{{categoryName}} Question Set and Registration</h1>
+
+
+	</script><!-- ./end category handlebars template -->
+
+
+
+
+
+
+
+	<!-- confirm popup -->
+
+	<!-- success -->
+	<script id="confirm-success-template" type="text/x-handlebars-template">
+		<h3>Thank you! We have received your request.</h3>
+		<p class="quote-id">For your records, your request ID is: {{quoteRequestId}}</p>
+	</script>
+
+	<!-- error -->
+	<script id="confirm-error-template" type="text/x-handlebars-template">
+		<h3>We're sorry. There is something wrong with the request.</h3>
+		<p>Errors:</p>
+		<ul>
+			{{#each errors}}
+				<li>{{this}}</li>
+
+			{{/each}}
+		</ul>
+	</script>
+
+	<!-- select aor cats -->
+	<script id="confirm-aor-template" type="text/x-handlebars-template">
+		<h5>While you're at it, select another category to submit a request in:</h5>
+
+		<ul id="aor-list">
+			{{#each this}}
+				<li><input type="checkbox" data-cat="{{_links.self}}" data-qs="{{_links.questionSet}}"/> <span>{{categoryName}}</span></li>
+
+			{{/each}}
+		</ul>
+
+		<button id="get-aor-form" class="button blue">Get More Quotes!</button>
+	</script>
+
+
+	<!-- html container -->
+	<div class="hidden">
+		<div id="confirm-wrapper">
+			<div id="thanks"></div>
+			<div id="aor-cats"></div>
+		</div>
+	</div>
+
+	<!-- aor will be rendered here -->
+	<div class="hidden">
+		<!--<div id="aor-form-wrapper">-->
+			<!--<button id="submit-aor-form">Submit Form</button>-->
+		<!--</div>-->
+
+		<div id="aor-cats-form-holder">
+
+		</div>
+	</div>
+
+
+
+
+	<!-- javascript libs -->
+	<script src="js/libs/jquery-1.8.3.min.js"></script>
+	<script src="js/libs/jquery.ba-bbq.min.js"></script>
+	<script src="js/libs/handlebars-v1.3.0.js"></script>
+	<script src="js/libs/hhh/build/hoard.all.js"></script>
+	<script src="js/libs/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+
+	<!-- app -->
+	<script src="js/app/getParams.js"></script>
+	<script src="js/app2/utils.js"></script>
+	<script src="js/app2/actions.js"></script>
+	<script src="js/app2/render.js"></script>
+	<script src="js/app2/app.js"></script>
+
+
+</body>
+</html>

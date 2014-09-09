@@ -1,0 +1,1017 @@
+{  
+   "categoryQuestions":{  
+      "version":"questions_2",
+      "czname":"Questions.xml",
+      "xmlId":"06f898e3-ac94-46eb-b33d-42a798c4fb5a",
+      "questionXMList":[  
+         {  
+            "xmlId":"6fb44264-0309-b7ec-2544-2e0cd0f0c7c6",
+            "type":"textsingle",
+            "displayorder":"0",
+            "buyerText":{  
+               "buyerText":"How many sinks do you need?"
+            },
+            "supplierText":{  
+               "supplierText":"How many sinks do you need?",
+               "displayorder":"502"
+            },
+            "answersXML":{  
+               "type":"text",
+               "answerXMList":[  
+                  {  
+                     "x mlId":"d647199a-a519-849c-b124-3f9dd6e1e3fd",
+                     "properties":{  
+                        "size":"medium",
+                        "validation":"number"
+                     }
+                  }
+               ]
+            }
+         },
+         {  
+            "xmlId":"3c503eb3-77a4-e29f-189a-478a68261458",
+            "type":"multiplechoice",
+            "displayorder":"1",
+            "buyerText":{  
+               "buyerText":"When do you need a kitchen sink?"
+            },
+            "supplierText":{  
+               "supplierText":"When do you need a kitchen sink?",
+               "displayorder":"501"
+            },
+            "helpText":{  
+               "title":"title of help text"
+            },
+            "answersXML":{  
+               "type":"radio",
+               "answerXMList":[  
+                  {  
+                     "xmlId":"3a6252ce-9255-1c4b-ae38-931b6acec312",
+                     "label":"Now"
+                  },
+                  {  
+                     "xmlId":"2f040e68-5a84-ec08-c044-f793c94e2d95",
+                     "label":"Later"
+                  },
+                  {  
+                     "xmlId":"2203c279-4854-ea0d-5e17-48f9cf950ecd",
+                     "label":"I'm shopping for a friend"
+                  },
+                  {  
+                     "xmlId":"63f1d7e5-6ca2-5394-d55e-01eb22891572",
+                     "label":"Other (please specify)",
+                     "properties":{  
+                        "other":"true"
+                     }
+
+                  }
+               ]
+            }
+         },
+         {  
+            "xmlId":"129c6922-4912-cb22-7a41-924469daba62",
+            "type":"textmultiple",
+            "displayorder":"2",
+            "buyerText":{  
+               "buyerText":"What are you looking for in a sink?"
+            },
+            "supplierText":{  
+               "supplierText":"What are you looking for in a sink?",
+               "displayorder":"503"
+            },
+            "answersXML":{  
+               "type":"text",
+               "answerXMList":[  
+                  {  
+                     "xmlId":"eaa5df7c-5368-b0b8-14f9-329f4d18ec35",
+                     "properties":{  
+                        "size":"small",
+                        "validation":"text"
+                     },
+                     "label":"Color"
+                  },
+                  {  
+                     "xmlId":"4893868f-b96b-140f-f662-8eb9a7cb08b6",
+                     "properties":{  
+                        "size":"large",
+                        "validation":"text"
+                     },
+                     "label":"Brand"
+                  }
+               ]
+            }
+         },
+         {  
+            "xmlId":"48060914-10a9-3191-0396-03a8fba8f3ac",
+            "type":"textparagraph",
+            "displayorder":"3",
+            "buyerText":{  
+               "buyerText":"Tell us where you have been shopping for a kitchen sink."
+            },
+            "supplierText":{  
+               "supplierText":"Tell us where you have been shopping for a kitchen sink",
+               "displayorder":"505"
+            },
+            "note":{  
+               "note":"Note: This question has example answers.",
+               "display":"true"
+            },
+            "answersXML":{  
+               "type":"textarea",
+               "answerXMList":[  
+                  {  
+                     "xmlId":"4e56cc87-05fe-f045-2ed0-afcecc1b043f",
+                     "properties":{  
+                        "size":"large"
+                     }
+                  }
+               ]
+            }
+         },
+         {  
+            "xmlId":"36c9c879-941f-f0a4-d370-7088967c885c",
+            "type":"multiplechoice",
+            "displayorder":"4",
+            "required":"true",
+            "buyerText":{  
+               "buyerText":"Select a brand from the menu below."
+            },
+            "supplierText":{  
+               "supplierText":"Select a brand from the menu below.",
+               "displayorder":"506"
+            },
+            "answersXML":{  
+               "type":"select",
+               "answerXMList":[  
+                  {  
+                     "xmlId":"58d1c436-6b39-a64e-c373-21f1e9d05146",
+                     "label":"Orka"
+                  },
+                  {  
+                     "xmlId":"3d0054a2-1064-097d-47ef-8d3400c23ee1",
+                     "label":"Kohler (redirect external)"
+                  },
+                  {  
+                     "xmlId":"ef7b2106-700c-d1c1-205e-901ad8e0750d",
+                     "label":"I actually need a desk (redirect internal)"
+                  }
+               ]
+            }
+         },
+         {  
+            "xmlId":"df768b80-99ce-8ff3-1af5-51f8de7cc7d6",
+            "type":"multiplechoice",
+            "displayorder":"5",
+            "buyerText":{  
+               "buyerText":"Select features below."
+            },
+            "supplierText":{  
+               "supplierText":"Select features below.",
+               "displayorder":"507"
+            },
+            "answersXML":{  
+               "type":"checkbox",
+               "answerXMList":[  
+                  {  
+                     "xmlId":"501ee516-fdac-120b-29e6-af2e2e1c6d74",
+                     "label":"Hot water (see image)"
+                  },
+                  {  
+                     "xmlId":"13b19e2b-e0c8-cfe1-69ed-17c3336c768c",
+                     "label":"Faucet"
+                  },
+                  {  
+                     "xmlId":"6eb3cbca-5c67-ccd9-e6fc-a2994b605cb6",
+                     "label":"Drain"
+                  },
+                  {  
+                     "xmlId":"6004c137-919c-a5fb-a9b4-677b81eccb46",
+                     "label":"Other (please specify)"
+                  }
+               ]
+            }
+         },
+         {  
+            "xmlId":"042d2254-4efe-69d0-ddd6-859675b08cef",
+            "type":"multiplechoice",
+            "displayorder":"6",
+            "buyerText":{  
+               "buyerText":"How many sinks do you have in your house?"
+            },
+            "supplierText":{  
+               "supplierText":"How many sinks do you have in your house?",
+               "displayorder":"508"
+            },
+            "helpText":{  
+               "title":"help text title"
+            },
+            "note":{  
+               "note":"Note: this is a very important question, but if you choose wrong, you will be redirected away forever.",
+               "display":"true"
+            },
+            "answersXML":{  
+               "type":"radio",
+               "answerXMList":[  
+                  {  
+                     "xmlId":"d05f744a-d023-b2af-7757-8ac9766fcfc1",
+                     "label":"10"
+                  },
+                  {  
+                     "xmlId":"61b3b352-cb4f-23ee-d7de-6722be121f93",
+                     "label":"Redirect somewhere happy"
+                  },
+                  {  
+                     "xmlId":"b7e55793-26f9-ebc4-bc21-b13d4791865c",
+                     "label":"Buy a steel building (redirect)"
+                  }
+               ]
+            }
+         },
+         {  
+            "xmlId":"zipcodeQuestion",
+            "type":"textsingle",
+            "displayorder":"7",
+            "required":"true",
+            "buyerText":{  
+               "buyerText":"What is your zip code?"
+            },
+            "supplierText":{  
+               "supplierText":"What is your zip code?",
+               "displayorder":"0"
+            },
+            "note":{  
+               "note":"(We only serve <strong>U.S. businesses</strong> at this time.)",
+               "display":"true"
+            },
+            "answersXML":{  
+               "type":"text",
+               "answerXMList":[  
+                  {  
+                     "xmlId":"zipcodeQuestion",
+                     "properties":{  
+                        "size":"small",
+                        "validation":"validzipcode"
+                     }
+                  }
+               ]
+            }
+         },
+         {  
+            "xmlId":"email",
+            "type":"textsingle",
+            "displayorder":"8",
+            "required":"true",
+            "buyerText":{  
+               "buyerText":"What is your email address?"
+            },
+            "supplierText":{  
+               "supplierText":"What is your email address?",
+               "displayorder":"1"
+            },
+            "note":{  
+               "note":"(e.g. john@example.com)",
+               "display":"true"
+            },
+            "answersXML":{  
+               "type":"text",
+               "answerXMList":[  
+                  {  
+                     "xmlId":"email",
+                     "properties":{  
+                        "size":"large",
+                        "validation":"email"
+                     }
+                  }
+               ]
+            }
+         },
+         {  
+            "xmlId":"additionalRequirements",
+            "type":"textparagraph",
+            "displayorder":"9",
+            "buyerText":{  
+               "buyerText":"Please describe any other features you need"
+            },
+            "supplierText":{  
+               "supplierText":"Please describe any other features you need",
+               "displayorder":"504"
+            },
+            "note":{  
+               "note":"Note: this is a note.",
+               "display":"true"
+            },
+            "answersXML":{  
+               "type":"textarea",
+               "answerXMList":[  
+                  {  
+                     "xmlId":"additionalRequirements",
+                     "properties":{  
+                        "size":"medium"
+                     }
+                  }
+               ]
+            }
+         }
+
+      ]
+   },
+   "registrationQuestions":{  
+      "questionXMList":[  
+         {  
+            "xmlId":"companyName",
+            "type":"textsingle",
+            "buyerText":{
+               "buyerText":"Company Name:"
+            },
+            "supplierText":{  
+               "supplierText":"Company Name:"
+            },
+            "answersXML":{  
+               "type":"text",
+               "answerXMList":[  
+                  {  
+                     "xmlId":"companyName"
+                  }                     
+               ]            
+            }
+         },
+         {  
+            "xmlId":"companyIndustry",
+            "type":"multiplechoice",
+            "buyerText":{
+               "buyerText":"Company Industry:"
+            },
+            "supplierText":{  
+               "supplierText":"Company Industry:"
+            },
+            "answersXML":{ 
+               "type":"select", 
+               "answerXMList":[  
+                  {  
+                     "xmlId":"1607",
+                     "label":"Advertising/Marketing/PR"
+                  },
+                  {  
+                     "xmlId":"1608",
+                     "label":"Agriculture"
+                  },
+                  {  
+                     "xmlId":"1609",
+                     "label":"Biotech/Pharmaceuticals"
+                  },
+                  {  
+                     "xmlId":"1610",
+                     "label":"Computers - Hardware"
+                  },
+                  {  
+                     "xmlId":"1611",
+                     "label":"Computers - Software"
+                  },
+                  {  
+                     "xmlId":"1612",
+                     "label":"Construction/General Contracting"
+                  },
+                  {  
+                     "xmlId":"1613",
+                     "label":"Consulting"
+                  },
+                  {  
+                     "xmlId":"1614",
+                     "label":"Education"
+                  },
+                  {  
+                     "xmlId":"1615",
+                     "label":"Equipment Sales & Service"
+                  },
+                  {  
+                     "xmlId":"1616",
+                     "label":"Financial Services"
+                  },
+                  {  
+                     "xmlId":"1617",
+                     "label":"Government"
+                  },
+                  {  
+                     "xmlId":"1618",
+                     "label":"Healthcare"
+                  },
+                  {  
+                     "xmlId":"1619",
+                     "label":"Information Services"
+                  },
+                  {  
+                     "xmlId":"1620",
+                     "label":"Insurance"
+                  },
+                  {  
+                     "xmlId":"1621",
+                     "label":"Legal"
+                  },
+                  {  
+                     "xmlId":"1622",
+                     "label":"Manufacturing"
+                  },
+                  {  
+                     "xmlId":"1623",
+                     "label":"Media/Entertainment/Publishing"
+                  },
+                  {  
+                     "xmlId":"1624",
+                     "label":"Non-Profit"
+                  },
+                  {  
+                     "xmlId":"1606",
+                     "label":"Other Services"
+                  },
+                  {  
+                     "xmlId":"1625",
+                     "label":"Real Estate"
+                  },
+                  {  
+                     "xmlId":"1626",
+                     "label":"Restaurant"
+                  },
+                  {  
+                     "xmlId":"1627",
+                     "label":"Retail"
+                  },
+                  {  
+                     "xmlId":"1628",
+                     "label":"Telecom/Utilities"
+                  },
+                  {  
+                     "xmlId":"1629",
+                     "label":"Transportation/Logistics"
+                  },
+                  {  
+                     "xmlId":"1630",
+                     "label":"Travel/Hospitality"
+                  },
+                  {  
+                     "xmlId":"1631",
+                     "label":"Wholesale"
+                  }
+               ]
+            }
+         },
+         {  
+            "xmlId":"title",
+            "type":"multiplechoice",
+            "buyerText":{
+               "buyerText":"Title/Function:"
+            },
+            "supplierText":{  
+               "supplierText":"Title/Function:"
+            },
+            "answersXML":{  
+               "type":"select",
+               "answerXMList":[  
+                  {  
+                     "xmlId":"1633",
+                     "label":"Accounting/Finance"
+                  },
+                  {  
+                     "xmlId":"1634",
+                     "label":"Admin. Assistant"
+                  },
+                  {  
+                     "xmlId":"1635",
+                     "label":"Attorney"
+                  },
+                  {  
+                     "xmlId":"1636",
+                     "label":"CEO/President/Owner"
+                  },
+                  {  
+                     "xmlId":"1637",
+                     "label":"CFO"
+                  },
+                  {  
+                     "xmlId":"1638",
+                     "label":"CIO"
+                  },
+                  {  
+                     "xmlId":"1639",
+                     "label":"Consultant"
+                  },
+                  {  
+                     "xmlId":"1640",
+                     "label":"Dentist/Physician"
+                  },
+                  {  
+                     "xmlId":"1641",
+                     "label":"Designer/Writer/Producer"
+                  },
+                  {  
+                     "xmlId":"1642",
+                     "label":"Educator"
+                  },
+                  {  
+                     "xmlId":"1643",
+                     "label":"Engineer/Programmer"
+                  },
+                  {  
+                     "xmlId":"1644",
+                     "label":"Facilities/Operations"
+                  },
+                  {  
+                     "xmlId":"1645",
+                     "label":"General Manager"
+                  },
+                  {  
+                     "xmlId":"1646",
+                     "label":"Human Resources"
+                  },
+                  {  
+                     "xmlId":"1647",
+                     "label":"Manufacturing"
+                  },
+                  {  
+                     "xmlId":"1648",
+                     "label":"Marketing/Public Relations"
+                  },
+                  {  
+                     "xmlId":"1649",
+                     "label":"MIS/IT"
+                  },
+                  {  
+                     "xmlId":"1650",
+                     "label":"Office Manager"
+                  },
+                  {  
+                     "xmlId":"1632",
+                     "label":"Other"
+                  },
+                  {  
+                     "xmlId":"1651",
+                     "label":"Partner/Principal"
+                  },
+                  {  
+                     "xmlId":"1652",
+                     "label":"Purchasing Manager"
+                  },
+                  {  
+                     "xmlId":"1653",
+                     "label":"R&D"
+                  },
+                  {  
+                     "xmlId":"1654",
+                     "label":"Receptionist"
+                  },
+                  {  
+                     "xmlId":"1655",
+                     "label":"Sales/Business Devt."
+                  }
+               ]
+            }
+         },
+         {  
+            "xmlId":"numOfEmployees",
+            "type":"multiplechoice",
+            "buyerText":{
+               "buyerText":"Number of Employees:"
+            },
+            "supplierText":{  
+               "supplierText":"Number of Employees:"
+            },
+            "answersXML":{  
+               "type":"select",
+               "answerXMList":[  
+                  {  
+                     "xmlId":"1656",
+                     "label":"1 to 9"
+                  },
+                  {  
+                     "xmlId":"1657",
+                     "label":"10 to 19"
+                  },
+                  {  
+                     "xmlId":"1658",
+                     "label":"20 to 49"
+                  },
+                  {  
+                     "xmlId":"1659",
+                     "label":"50 to 99"
+                  },
+                  {  
+                     "xmlId":"1660",
+                     "label":"100 to 499"
+                  },
+                  {  
+                     "xmlId":"1661",
+                     "label":"500 to 999"
+                  },
+                  {  
+                     "xmlId":"1662",
+                     "label":"1000+"
+                  }
+               ]
+            }
+         },
+         {  
+            "xmlId":"firstName",
+            "type":"textsingle",
+            "buyerText":{
+               "buyerText":"First Name:"
+            },
+            "supplierText":{  
+               "supplierText":"First Name:"
+            },
+            "answersXML":{  
+               "type":"text",
+               "answerXMList":[  
+                  {  
+                     "xmlId":"firstName"
+                  }                     
+               ]            
+            }
+         },
+         {  
+            "xmlId":"lastName",
+            "type":"textsingle",
+            "buyerText":{
+               "buyerText":"Last Name:"
+            },
+            "supplierText":{  
+               "supplierText":"Last Name:"
+            },
+            "answersXML":{  
+               "type":"text",
+               "answerXMList":[  
+                  {  
+                     "xmlId":"lastName"
+                  }                     
+               ]            
+            }
+         },
+         {  
+            "xmlId":"phone",
+            "type":"textsingle",
+            "buyerText":{
+               "buyerText":"Phone Number:"
+            },
+            "supplierText":{  
+               "supplierText":"Phone Number:"
+            },
+            "answersXML":{  
+               "type":"text",
+               "answerXMList":[  
+                  {  
+                     "xmlId":"phone",
+                     "properties":{
+                        "validation": "phoneUS"  
+
+                     }
+
+                  }                     
+               ]            
+            }
+         },
+         {  
+            "xmlId":"altPhone",
+            "type":"textsingle",
+            "buyerText":{
+               "buyerText":"Alternate Phone:"
+            },
+            "supplierText":{  
+               "supplierText":"Alternate Phone: [Optional]"
+            },
+            "answersXML":{  
+               "type":"text",
+               "answerXMList":[  
+                  {  
+                     "xmlId":"altPhone",
+                     "properties":{
+                        "validation": "phoneUS"  
+
+                     }
+
+                  }                     
+               ]            
+            }
+         },
+         {  
+            "xmlId":"phoneExtn",
+            "type":"textsingle",
+            "buyerText":{
+               "buyerText":"Ext:"
+            },
+            "supplierText":{  
+               "supplierText":"Ext: [Optional]"
+            },
+            "answersXML":{  
+               "type":"text",
+               "answerXMList":[  
+                  {  
+                     "xmlId":"phoneExtn",
+                     "properties":{
+                        "validation": "number",
+                        "size":"small"  
+
+                     }
+
+                  }                     
+               ]            
+            }
+          },
+         {  
+            "xmlId":"streetName",
+            "type":"textsingle",
+            "buyerText":{
+               "buyerText":"Street Address:"
+            },
+            "supplierText":{  
+               "supplierText":"Street Address:"
+            },
+            "answersXML":{  
+               "type":"text",
+               "answerXMList":[  
+                  {  
+                     "xmlId":"streetName"
+                  }                     
+               ]            
+            }
+         },
+         {  
+            "xmlId":"city",
+            "type":"textsingle",
+            "buyerText":{
+               "buyerText":"City:"
+            },
+            "supplierText":{  
+               "supplierText":"City:"
+            },
+            "answersXML":{  
+               "type":"text",
+               "answerXMList":[  
+                  {  
+                     "xmlId":"city"
+                  }                     
+               ]
+            }
+         },
+         {  
+            "xmlId":"stateId",
+            "type":"multiplechoice",
+            "buyerText":{
+               "buyerText":"State:"
+            },
+            "supplierText":{  
+               "supplierText":"State:"
+            },
+            "answersXML":{  
+               "type":"select",
+               "answerXMList":[  
+                  {  
+                     "xmlId":"",
+                     "label":"Select a State"
+                  },
+                  {  
+                     "xmlId":"AL",
+                     "label":"Alabama"
+                  },
+                  {  
+                     "xmlId":"AK",
+                     "label":"Alaska"
+                  },
+                  {  
+                     "xmlId":"AZ",
+                     "label":"Arizona"
+                  },
+                  {  
+                     "xmlId":"AR",
+                     "label":"Arkansas"
+                  },
+                  {  
+                     "xmlId":"CA",
+                     "label":"California"
+                  },
+                  {  
+                     "xmlId":"CO",
+                     "label":"Colorado"
+                  },
+                  {  
+                     "xmlId":"CT",
+                     "label":"Connecticut"
+                  },
+                  {  
+                     "xmlId":"DE",
+                     "label":"Delaware"
+                  },
+                  {  
+                     "xmlId":"DC",
+                     "label":"District of Columbia"
+                  },
+                  {  
+                     "xmlId":"FL",
+                     "label":"Florida"
+                  },
+                  {  
+                     "xmlId":"GA",
+                     "label":"Georgia"
+                  },
+                  {  
+                     "xmlId":"GU",
+                     "label":"Guam"
+                  },
+                  {  
+                     "xmlId":"HI",
+                     "label":"Hawaii"
+                  },
+                  {  
+                     "xmlId":"ID",
+                     "label":"Idaho"
+                  },
+                  {  
+                     "xmlId":"IL",
+                     "label":"Illinois"
+                  },
+                  {  
+                     "xmlId":"IN",
+                     "label":"Indiana"
+                  },
+                  {  
+                     "xmlId":"IA",
+                     "label":"Iowa"
+                  },
+                  {  
+                     "xmlId":"KS",
+                     "label":"Kansas"
+                  },
+                  {  
+                     "xmlId":"KY",
+                     "label":"Kentucky"
+                  },
+                  {  
+                     "xmlId":"LA",
+                     "label":"Louisiana"
+                  },
+                  {  
+                     "xmlId":"ME",
+                     "label":"Maine"
+                  },
+                  {  
+                     "xmlId":"MD",
+                     "label":"Maryland"
+                  },
+                  {  
+                     "xmlId":"MA",
+                     "label":"Massachusetts"
+                  },
+                  {  
+                     "xmlId":"MI",
+                     "label":"Michigan"
+                  },
+                  {  
+                     "xmlId":"MN",
+                     "label":"Minnesota"
+                  },
+                  {  
+                     "xmlId":"MS",
+                     "label":"Mississippi"
+                  },
+                  {  
+                     "xmlId":"MO",
+                     "label":"Missouri"
+                  },
+                  {  
+                     "xmlId":"MT",
+                     "label":"Montana"
+                  },
+                  {  
+                     "xmlId":"NE",
+                     "label":"Nebraska"
+                  },
+                  {  
+                     "xmlId":"NV",
+                     "label":"Nevada"
+                  },
+                  {  
+                     "xmlId":"NH",
+                     "label":"New Hampshire"
+                  },
+                  {  
+                     "xmlId":"NJ",
+                     "label":"New Jersey"
+                  },
+                  {  
+                     "xmlId":"NM",
+                     "label":"New Mexico"
+                  },
+                  {  
+                     "xmlId":"NY",
+                     "label":"New York"
+                  },
+                  {  
+                     "xmlId":"NC",
+                     "label":"North Carolina"
+                  },
+                  {  
+                     "xmlId":"ND",
+                     "label":"North Dakota"
+                  },
+                  {  
+                     "xmlId":"OH",
+                     "label":"Ohio"
+                  },
+                  {  
+                     "xmlId":"OK",
+                     "label":"Oklahoma"
+                  },
+                  {  
+                     "xmlId":"OR",
+                     "label":"Oregon"
+                  },
+                  {  
+                     "xmlId":"PA",
+                     "label":"Pennsylvania"
+                  },
+                  {  
+                     "xmlId":"PR",
+                     "label":"Puerto Rico"
+                  },
+                  {  
+                     "xmlId":"RI",
+                     "label":"Rhode Island"
+                  },
+                  {  
+                     "xmlId":"SC",
+                     "label":"South Carolina"
+                  },
+                  {  
+                     "xmlId":"SD",
+                     "label":"South Dakota"
+                  },
+                  {  
+                     "xmlId":"TN",
+                     "label":"Tennessee"
+                  },
+                  {  
+                     "xmlId":"TX",
+                     "label":"Texas"
+                  },
+                  {  
+                     "xmlId":"UT",
+                     "label":"Utah"
+                  },
+                  {  
+                     "xmlId":"VT",
+                     "label":"Vermont"
+                  },
+                  {  
+                     "xmlId":"VI",
+                     "label":"Virgin Islands"
+                  },
+                  {  
+                     "xmlId":"VA",
+                     "label":"Virginia"
+                  },
+                  {  
+                     "xmlId":"WA",
+                     "label":"Washington"
+                  },
+                  {  
+                     "xmlId":"WV",
+                     "label":"West Virginia"
+                  },
+                  {  
+                     "xmlId":"WI",
+                     "label":"Wisconsin"
+                  },
+                  {  
+                     "xmlId":"WY",
+                     "label":"Wyoming"
+                  }
+               ]
+            }
+         },
+         {  
+            "xmlId":"zipcode",
+            "type":"textsingle",
+            "buyerText":{
+               "buyerText":"Zip Code:"
+            },
+            "supplierText":{  
+               "supplierText":"Zip Code:"
+            },
+            "answersXML":{  
+               "type":"text",
+               "answerXMList":[  
+                  {  
+                     "xmlId":"zipcode",
+                     "properties":{
+                        "validation": "zipcodeUS",
+                        "size":"small"
+
+                     }
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "_links":{  
+      "self":"http://local.buyerzone.com/api/v1/categories/10681/questionSets/latest",
+      "submissionUrl":"http://local.buyerzone.com/api/v1/categories/10681/request"
+   }
+}

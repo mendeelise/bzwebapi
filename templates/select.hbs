@@ -1,0 +1,9 @@
+<select name="{{this.xmlId}}" id="{{this.xmlId}}" class="dropdown {{{req required}}}">
+
+	<option value="">Please Select</option>
+
+	{{#each this.answersXML.answerXMList}}
+		<option value="{{xmlId}}">{{label}}</option>
+	{{/each}}
+
+</select>
